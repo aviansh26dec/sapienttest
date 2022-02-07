@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart renders correctly 1`] = `
+<nav
+  className="bottomBorder navbar navbar-expand navbar-light"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="navbar-brand"
+      href="#home"
+    >
+      Prodct List
+    </a>
+    <button
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="justify-content-end navbar-collapse collapse"
+    >
+      <span
+        className="navbar-text"
+      >
+        <button
+          className="btn btn-success"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <img
+            className="cartLogo"
+            src="cart.png"
+          />
+           
+          <span
+            className="badge bg-danger"
+          >
+            0
+          </span>
+        </button>
+      </span>
+    </div>
+  </div>
+</nav>
+`;
